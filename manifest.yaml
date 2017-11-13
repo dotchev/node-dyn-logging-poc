@@ -1,0 +1,9 @@
+---
+applications:
+- name: dyn-log-level
+  host: dyn-log-level
+  memory: 128M
+  env:
+    LOG_CONFIG_SERVICE: redis-srv
+  services:
+  - redis-srv

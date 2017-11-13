@@ -1,0 +1,22 @@
+{
+  "name": "dyn-log-level",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cf-nodejs-logging-support": "git+https://github.com/gvachkov/cf-nodejs-logging-support.git",
+    "cf-services": "^2.0.1",
+    "express": "^4.16.2",
+    "node-log-level": "git+https://github.com/gvachkov/node-log-level.git",
+    "redis": "^2.8.0"
+  }
+}
